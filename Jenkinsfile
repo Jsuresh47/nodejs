@@ -2,8 +2,6 @@ pipeline {
     agent any
      
     stages {
-        stages {
-
         stage('Clone Repository'){
             steps{
                 git branch: 'main',
