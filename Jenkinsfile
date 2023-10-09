@@ -12,7 +12,7 @@ pipeline {
         stage("Build") {
             steps{
                 nodejs(nodeJSInstallationName: 'nodejs18.7.1') 
-                sh '/usr/bin/npm install'
+                    sh '/usr/bin/npm install'
             }
         }
 
